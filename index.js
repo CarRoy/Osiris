@@ -8,7 +8,7 @@ const token = require("./config.json");
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is online!`);
   
-    bot.user.setActivity("tutorials on TSC", {type: "WATCHING"});
+    bot.user.setActivity("yeet", {type: "WATCHING"});
   });
   bot.on("message", async () => {
 if(!message.content.startsWith === prefix) return;
